@@ -1,0 +1,30 @@
+# Arquivos gerados automaticamente
+__pycache__/
+*.pyc
+
+# Ambiente virtual
+venv/
+env/
+
+# Arquivos de banco de dados SQLite
+*.sqlite3
+
+# Arquivos de logs
+*.log
+
+# Arquivos de cache do pytest
+.pytest_cache/
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.swp
+*~
+
+# Arquivos de configuração específicos do sistema
+.DS_Store
+
+# Outros arquivos gerados
+db.sqlite3
