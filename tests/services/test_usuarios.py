@@ -34,6 +34,7 @@ def test_consultar_usuarios(conexao_banco):
     
     # assert
     assert novo_usuario in lista_usuarios
+    print('a')
     
     # EXCLUIR O USUÁRIO CRIADO - BOA PRÁTICA - LIMPAR O BANCO DE DADOS APÓS O TESTE
     conexao_banco.cursor.execute("DELETE FROM usuarios WHERE id = ?", (novo_usuario[0],))
